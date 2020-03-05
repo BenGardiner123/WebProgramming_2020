@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Spartan', sans-serif;
+}
+
+
+.header {
+    background-color: green;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    padding: 200px;
+}
+
+.header h1 {
+    margin: 0;
+
+}
+
+.email {
+
+}
+
+.footer {
+    border-content: 
+}
