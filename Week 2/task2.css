@@ -1,0 +1,43 @@
+body{
+    background-color: #46d246;
+}
+
+
+.whitebox {
+/* display: flex;
+justify-content: center;
+align-content: center; */
+height: 300px;
+width: 400px;
+border: 1px solid;
+margin: 250px 180px;
+background-color: white;
+box-shadow: darkgrey;
+box-shadow: 10px;  
+}
+
+.username {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid;
+    text-align: left; 
+}
+
+.password {
+    box-sizing: border-box;
+    padding:20px;
+    border: 1px solid;   
+
+}
+
+.loginbutton {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid;
+}
+
+p {
+    
+    text-align: center;
+}
