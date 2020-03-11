@@ -1,43 +1,46 @@
-body{
-    background-color: #46d246;
+html, body {
+    background-color: green;
+    margin: 0;
 }
 
-
-.whitebox {
-/* display: flex;
-justify-content: center;
-align-content: center; */
-height: 300px;
-width: 400px;
-border: 1px solid;
-margin: 250px 180px;
-background-color: white;
-box-shadow: darkgrey;
-box-shadow: 10px;  
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-.username {
-    box-sizing: border-box;
-    width: 80%;
-    padding: 20px;
-    border: 1px solid;
-    text-align: left; 
+.box {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
-.password {
-    box-sizing: border-box;
-    padding:20px;
-    border: 1px solid;   
-
+.button1{
+margin: 60px auto 30px;
+ height: 70px;
+ width: 260px;
+ border: solid 1px black;
+ background-color: #E5E5E5;
+ text-decoration-color: grey;
 }
 
-.loginbutton {
-    box-sizing: border-box;
-    padding: 20px;
-    border: 1px solid;
+.button2 {
+margin: 20px auto 30px;
+height: 70px;
+width: 260px;
+border: solid 1px black;
+ background-color: #E5E5E5;
+ text-decoration-color: grey;
 }
 
-p {
-    
-    text-align: center;
+.button3 {
+  margin: auto;
+  height: 70px;
+  width: 260px;
+  border: solid 1px black;
+  background-color: #0CB00F;
+  text-decoration-color: white;
 }
+
