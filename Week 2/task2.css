@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html, body {
     background-color: green;
     margin: 0;
@@ -11,36 +14,52 @@ html, body {
 }
 
 .box {
+    padding: 40px;
     width: 400px;
     height: 450px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
-.button1{
-margin: 60px auto 30px;
- height: 70px;
- width: 260px;
- border: solid 1px black;
- background-color: #E5E5E5;
- text-decoration-color: grey;
+.button {
+    height: 70px;
+    width: 100%;
+    background-color: #E5E5E5;
+    border: transparent 1px grey;
+    margin-bottom: 20px;
 }
 
-.button2 {
-margin: 20px auto 30px;
-height: 70px;
-width: 260px;
-border: solid 1px black;
- background-color: #E5E5E5;
- text-decoration-color: grey;
+.button p {
+    color: grey;
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
-.button3 {
-  margin: auto;
-  height: 70px;
-  width: 260px;
-  border: solid 1px black;
-  background-color: #0CB00F;
-  text-decoration-color: white;
+
+.login_button {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #0CB00F;
+    text-decoration-color: white;
+    
 }
 
+.login_button p {
+    text-align: center;
+    color: white;
+    display: contents;
+}
+
+.register {
+    text-align: center;
+}
+
+.register a {
+    color: green;
+    text-decoration: none;
+}
