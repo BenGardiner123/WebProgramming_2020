@@ -1,16 +1,108 @@
-.list-box {
+.container {
+    display: flex;
+    width: 100vh;
+    
+}
+
+.border {
+    flex-direction: row;
+    padding: 20%;
+    background-color: lightgrey;
+    
+}
+
+.photo {
+    
+}
+
+.header {
+
+}
+
+.date {
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.title {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    padding: 37px;
+}
+
+.middle {
+    display: flex;
+}
+
+.readmore {
+    font: 35px sans-serif;
+    background-color: white;
+    width: 170%; 
+    color: black;
+    border-top: thin dotted purple;
+    padding-top: 37px;
+    padding-left: 10px;
+    
+}
+
+.spacer {
+    width: 40%;
+    background-color: white;
+    border-top: thin dotted purple;
+}
+
+.plus {
+    font-size: 114px;
+    font-weight: 900;
+    color: white;
     background-color: purple;
-    font-size: 0; /* Hide the whitespace between the two divs */
+    width:36%;
+    text-align: center;
+}
+
+
+.list-box {
+    display: flex;
+    background-color: purple;
+    
 }
 .date-box {
-    display: flex-;
+    display: flex;
     width: 30%;
-    font-size: 16px;
     text-align: center;
     padding: 40px 0px;
 }
 .list-box .desc {
-    display: inline-block;
+    text-align: center;
+    padding: 5%;
     width: 70%;
-    font-size: 16px;
+    font-size: 30px;
+    color: white;
 } 
+
+.month{
+    font-size: 30px;
+    color: black
+}
+
+.day{   
+    font-size: 19px;
+    color: white;
+}
+
+.footer{
+
+
+}
+
+.info{
+
+}
+
+.contact{
+
+}
