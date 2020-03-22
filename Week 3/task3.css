@@ -6,18 +6,16 @@
 
 .border {
     flex-direction: row;
-    padding: 20%;
-    background-color: lightgrey;
+    padding: 15%;
+    background-color: rgb(34, 33, 33);
     
 }
 
-.photo {
-    
-}
-
-.header {
+.company_name {
+    text-decoration: seashell;
 
 }
+
 
 .date {
     font-size: 28px;
@@ -95,15 +93,7 @@
     color: white;
 }
 
-.footer{
-
-
+.p1 .p2 .p3 {
+color: white;
 }
 
-.info{
-
-}
-
-.contact{
-
-}
