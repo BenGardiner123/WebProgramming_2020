@@ -6,15 +6,22 @@
 
 .border {
     flex-direction: row;
-    padding: 15%;
+    padding: 10% 10% 5% 10%;
     background-color: rgb(34, 33, 33);
     
 }
 
 .company_name {
-    text-decoration: seashell;
-
+    color: grey;
+    text-align: center;
+    height: auto;
 }
+
+.photo img {
+ width: 100%;
+ height: auto;
+}
+
 
 
 .date {
@@ -93,7 +100,38 @@
     color: white;
 }
 
-.p1 .p2 .p3 {
-color: white;
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p1 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.p2 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.p3 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 2%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
 }
 
