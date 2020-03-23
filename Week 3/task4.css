@@ -1,0 +1,49 @@
+.container {
+    width: 80vh;
+    margin: auto;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #3e4c57;
+}
+
+.socials{
+    display: flex;
+   flex-direction: row;
+}
+
+.facebook{
+    padding: 4%;
+    width: 50%;
+}
+
+.twitter{
+    padding: 4%;
+    width: 50%;
+}
+
+.signup{
+    margin: 4%;
+    text-align: center;
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+}
+
+.green_block{
+    background-color: green;
+}
+
+.first{
+    padding: 4%;
+    background-color: ivory;
+}
+
+.last{
+    padding: 4%;
+}
