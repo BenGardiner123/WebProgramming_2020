@@ -9,18 +9,37 @@
 
 <div id="content">Randonm Texrt</div>
 
-<div id="content1">Random Text</div>
+<div id="content1">Counter: 0</div>
 
-<button>What is the time javascript?</button>
+<button id="theButton">What is the time javascript?</button>
+<button id="theOtherButton">Count!</button>
+<input id="myInput" type="number" value="1">
 
 <script type="text/javascript">
     let content = document.getElementById("content");
-    content.innerHTML = "BOOOOO!!";
+    let myButton = document.getElementById("theButton");
+    
+    let content1 = document.getElementById("content1");
+    let myOtherButton = document.getElementById("theOtherButton");
+
+    let myInput = document.getElementById("myInput");
+
+    let count = 0;
+
+    myButton.onclick = OnMyButtonClick;
 
     function OnMyButtonClick() {
     }
 
-    OnMyButtonClick();
+    myOtherButton.onclick = function () {
+        
+        let inputValue = parseFloat(myInput.value);
+
+        content1.innerHTML = "Counter:" + count;
+        count = count + inputValue;
+    }
+
+
 
 </script>
 
