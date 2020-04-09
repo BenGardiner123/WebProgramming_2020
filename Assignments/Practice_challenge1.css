@@ -1,20 +1,26 @@
 .outer{
-
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 .W_e_container{
-
+    padding: 2%;
 }
 
+.Education_container{
+    padding: 2%;
+}
 .Job_title{
-
+ font-size: 18px;
 }
 
 .dates{
-
+font-size: 14px;
+color: blueviolet;
 }
 
 .details{
+    font-size: 12px;
 
 }
 
