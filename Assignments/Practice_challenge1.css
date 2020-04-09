@@ -4,7 +4,7 @@
     background-color: lightgrey;
     min-height: 100%;
     margin: auto;
-    padding: 10px, 5px, 10px, 5px;
+    padding: 10px 5px 10px 5px;
 }
 
 .W_e_container{
@@ -23,7 +23,7 @@
 }
 .Title{
     font-size: 20px;
-    padding: 1%;
+    padding: 1% 1% 1% 0%;
 }
 
 .Job_title{
