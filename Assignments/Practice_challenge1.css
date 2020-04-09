@@ -1,26 +1,45 @@
 .outer{
     box-sizing: border-box;
     flex-direction: column;
+    background-color: lightgrey;
+    min-height: 100%;
+    margin: auto;
+    padding: 10px;
 }
 
 .W_e_container{
     padding: 2%;
+    background-color: white;
+}
+
+.spacer{
+    background-color: lightgrey;
+    height: 5px;
 }
 
 .Education_container{
     padding: 2%;
+    background-color: white;
 }
+.Title{
+    font-size: 20px;
+}
+
 .Job_title{
  font-size: 18px;
+ color: grey;
+ text-align: left;
 }
 
 .dates{
 font-size: 14px;
 color: blueviolet;
+text-align: left;
 }
 
 .details{
     font-size: 12px;
-
+    color: grey;
+    text-align: left;
 }
 
